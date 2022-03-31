@@ -357,8 +357,44 @@
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
           <button class="btn-modal" data-modal-close>
-            <svg class="modal-svg" width="11px" height="11px"></svg>
+            <svg class="modal-svg" width="11px" height="11px">
+              <use href="./images/icons.svg#Vector"></use>
+            </svg>
           </button>
+          <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
+          <form class="form" autocomplete="off">
+            <label class="form-field">
+              <span class="form-word">Имя</span>
+              <svg class="form-svg" width="18px" height="18px">
+                <use href="./images/icons.svg#person-black"></use>
+              </svg>
+              <input type="email" class="form-input" name="name" />
+            </label>
+
+            <label class="form-field">
+              <span class="form-word">Телефон</span>
+              <svg class="form-svg" width="18px" height="18px">
+                <use href="./images/icons.svg#phone-black"></use>
+              </svg>
+              <input type="tel" class="form-input" name="phone-number" />
+            </label>
+            <label class="form-field">
+              <span class="form-word">Почта</span>
+              <svg class="form-svg" width="18px" height="18px">
+                <use href="./images/icons.svg#email-black"></use>
+              </svg>
+              <input type="email" class="form-input" name="mail" />
+            </label>
+            <label class="form-field">
+              <span class="form-word">Коментарий</span>
+              <textarea
+                name="feedback"
+                class="form-textarea"
+                placeholder="Введите текст"
+              ></textarea>
+            </label>
+            <button type="submit" class="form-submit">Submit</button>
+          </form>
         </div>
       </div>
     </main>
