@@ -363,37 +363,51 @@
           </button>
           <h2 class="form-title">Оставьте свои данные, мы вам перезвоним</h2>
           <form class="form" autocomplete="off">
-            <label class="form-field">
+           <div class="form-name"> <label class="form-field">
               <span class="form-word">Имя</span>
               <svg class="form-svg" width="18px" height="18px">
                 <use href="./images/icons.svg#person-black"></use>
               </svg>
               <input type="email" class="form-input" name="name" />
-            </label>
+            </label></div>
 
-            <label class="form-field">
+            <div class="form-phone"><label class="form-field">
               <span class="form-word">Телефон</span>
               <svg class="form-svg" width="18px" height="18px">
                 <use href="./images/icons.svg#phone-black"></use>
               </svg>
               <input type="tel" class="form-input" name="phone-number" />
-            </label>
-            <label class="form-field">
+            </label></div>
+            <div class="form-mail"><label class="form-field">
               <span class="form-word">Почта</span>
               <svg class="form-svg" width="18px" height="18px">
                 <use href="./images/icons.svg#email-black"></use>
               </svg>
               <input type="email" class="form-input" name="mail" />
-            </label>
+            </label></div>
+            <div class="form-coment">
             <label class="form-field">
               <span class="form-word">Коментарий</span>
               <textarea
                 name="feedback"
                 class="form-textarea"
                 placeholder="Введите текст"
-              ></textarea>
+              ></textarea></div>
             </label>
-            <button type="submit" class="form-submit">Submit</button>
+            <div class="checkbox-block">
+              <label class="form-checkbox">
+                <input class="checkbox" type="checkbox" name="terms" value="treaty" />
+                <span class="checkbox-icon">
+                  <svg class="checkbox-svg" width="16px" height="15px">
+                    <use href="./images/icons.svg#icon-check"></use>
+                  </svg>
+                </span>
+                Соглашаюсь с рассылкой и принимаю
+              </label>
+              <a href="" class="checkbox-link"> Условия договора</a>
+            </div>
+
+            <button type="submit" class="form-submit">Отправить</button>
           </form>
         </div>
       </div>
@@ -447,6 +461,14 @@
             </li>
           </ul>
         </div>
+        <div class="send">
+          <h3 class="send-title">Подпишитесь на рассылку</h3>
+          <lable class="form-send">
+            <input class="send-mail" type="email" name="mail" placeholder="E-mail">
+          </lable>
+          <button type="subscribe" class="send-btn">Подписаться <svg class="send-icon" width = 24px height = 24px><use href="./images/icons.svg#icon-send"></use></svg></button>
+        </div>
+        
       </div>
     </footer>
     <script src="./js/modal.js"></script>
