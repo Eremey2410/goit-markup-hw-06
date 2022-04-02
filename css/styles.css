@@ -535,7 +535,9 @@ body {
   margin-top: 8px;
   margin-right: 8px;
   margin-left: auto;
+  background-color: var(--white-color);
   border-radius: 50%;
+  border: none;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
@@ -799,6 +801,8 @@ body {
 .send-mail {
   width: 358px;
   height: 50px;
+  padding-left: 16px;
+  color: #afb1b8;
   background-color: #2f303a;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
