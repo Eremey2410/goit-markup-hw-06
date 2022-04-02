@@ -537,7 +537,6 @@ body {
   margin-left: auto;
   background-color: var(--white-color);
   border-radius: 50%;
-  border: none;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
@@ -702,6 +701,7 @@ body {
   height: 50px;
   color: var(--white-color);
   background: #188ce8;
+  border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
